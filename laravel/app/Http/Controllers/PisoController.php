@@ -30,5 +30,6 @@ class PisoController extends Controller
             'synced' => false 
         ]);
         
+        SyncPisuaToOdoo::dispatch($pisua);
     }
 }
